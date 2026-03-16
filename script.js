@@ -8,6 +8,10 @@ function calcular(){
 
     let resultado;
 
+    if(n1 == "" || n2 == ""){
+        alert("Digite dois números para realizar a conta!");
+    
+
     if(opcoes == "1"){
         resultado = n1+n2;
     }else if(opcoes == "2"){
@@ -16,7 +20,7 @@ function calcular(){
         resultado = n1*n2
     }else if(opcoes == "4"){
         if(n2==0){
-            alert("Resultado inexistente");
+            alert("Resultado inexistente!");
         }else{
             resultado = n1/n2
         }

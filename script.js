@@ -15,7 +15,11 @@ function calcular(){
     }else if(opcoes == "3" ){
         resultado = n1*n2
     }else if(opcoes == "4"){
-        resultado = n1/n2
+        if(n2==0){
+            alert("Resultado inexistente");
+        }else{
+            resultado = n1/n2
+        }
     }
 
     document.getElementById("Resultado").innerHTML = resultado;

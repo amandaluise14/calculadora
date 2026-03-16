@@ -11,13 +11,16 @@
     <input type="number" id="n1">
     <input type="number" id="n2">
 
-<label for="opcoes">Escolha as operações:</label>
-<select name="opcoes" id="opcoes">
-  <option value="1">+</option>
-  <option value="2">-</option>
-   <option value="3">x</option>
-  <option value="4">:</option>
-</select>
+    <label for="opcoes">Escolha as operações:</label>
+        <select name="opcoes" id="opcoes">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">x</option>
+            <option value="4">:</option>
+        </select>
 
+<button onclick="calcular()">=</button>
+<p>Resultado: <span id="Resultado">0</span></p>
 </body>
+<script src="script.js"></script>
 </html>

@@ -2,8 +2,9 @@ body{
     background-color: rgb(250, 161, 180);
 }
 
-#conteudo{
-background-color: rgb(247, 68, 107);
+.conteudo{
+background-color: rgba(247, 68, 107, 0.568);
 border-radius: 15px;
-
+align-items: center;
+margin-right: 500px;
 }

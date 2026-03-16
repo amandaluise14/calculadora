@@ -10,7 +10,7 @@ function calcular(){
 
     if(n1 == "" || n2 == ""){
         alert("Digite dois números para realizar a conta!");
-    
+    }
 
     if(opcoes == "1"){
         resultado = n1+n2;

@@ -2,3 +2,8 @@ body{
     background-color: rgb(250, 161, 180);
     color: #e71a6f;
 }
+
+#conteudo{
+background-color: rgb(247, 68, 107);
+border-radius: 15px;
+}

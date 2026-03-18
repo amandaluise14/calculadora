@@ -27,6 +27,14 @@ function calcular(){
     }
 
     document.getElementById("Resultado").innerHTML = resultado;
-
-
 }
+calcular();
+
+function limpar(){
+
+    document.getElementById("n1").value = " ";
+    document.getElementById("n2").value = " ";
+    document.getElementById("Resultado").textContent = " ";
+    document.getElementById("n1").focus();
+}
+limpar();
